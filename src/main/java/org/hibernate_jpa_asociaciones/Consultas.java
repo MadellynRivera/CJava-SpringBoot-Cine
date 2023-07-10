@@ -1,4 +1,4 @@
-package org.hibernate_jpa_asociaciones;
+upackage org.hibernate_jpa_asociaciones;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EntityManager;
@@ -13,7 +13,7 @@ import java.util.List;
 
 public class Consultas {
     public static void main(String[] args) {
-        System.out.println("Modificando el valor del campo taquilla en Estados Unidos ");
+        System.out.println("Modificando el valor del campo taquilla en Estados Unidos en un select");
         EntityManager em = JpaUtil.getEntityManager();
         CriteriaBuilder cb = em.getCriteriaBuilder();
 
